@@ -35,13 +35,23 @@
         text-decoration: none;
         color: #fff;
         font-size: 18px;
-        padding: 10px 20px;
+        padding: 7px 15px;
         border-radius: 5px;
         transition: background-color 0.3s ease;
     }
 
     nav ul li a:hover {
         background-color: #555;
+    }
+    
+    
+
+    .content {
+      backdrop-filter: blur(10px); /* Adjust the blur amount */
+      background-color: rgba(255, 255, 255, 0.5); /* Adjust the background color and opacity */
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
     }
 
     body {
@@ -53,6 +63,10 @@
         height:100vh;
         margin: 0;
         padding: 0;
+       overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     header {
